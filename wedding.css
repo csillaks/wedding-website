@@ -24,15 +24,6 @@ p, li{
   font-family: 'Muli', sans-serif;
 }
 
-ul {
-  padding-bottom: 1.5rem;
-  letter-spacing: .025rem;
-  display: table;
-  text-align: left;
-  margin: 0 auto;
-  line-height: 1.4rem;
-}
-
 h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
@@ -47,10 +38,11 @@ h3, .gifts p, .contact p{
   font-style: italic
 }
 
+/*
 .info, .program, .gifts, .QandA, .contact {
   width: 95%;
   margin: 0 auto;
-}
+}*/
 
 a {
   color: #bd806e;
@@ -152,5 +144,14 @@ a:hover {
 
 .program {
   background-color: hsla(100,0%,0%,.6);
-  color: #d2ba87
+  color: #d2ba87;
+}
+
+ul {
+  padding-bottom: 1.5rem;
+  letter-spacing: .025rem;
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.4rem;
 }
