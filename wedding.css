@@ -14,7 +14,7 @@ img, header {
 }
 
 body {
-  background: url(assets/wedding-landing-background.png) no-repeat center center fixed;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') no-repeat center center fixed;
   background-size: cover;
   color: #444349;
   text-align: center;
