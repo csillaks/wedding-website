@@ -49,6 +49,7 @@ h3, .gifts p, .contact p{
 
 .info, .program, .gifts, .QandA, .contact {
   width: 95%;
+  margin: 0 auto;
 }
 
 a {
