@@ -9,40 +9,46 @@ h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dd,
 p,figure,
 pre,table,fieldset,hr,
-img, section {
-    margin-bottom: 1rem;
+img, section, header {
+  margin-bottom: 1rem;
 }
 
 body {
-background: url(assets/wedding-landing-background.png) no-repeat center center fixed;
+  background: url(assets/wedding-landing-background.png) no-repeat center center fixed;
   background-size: cover;
   color: #444349;
   text-align: center;
 }
 
 p, li{
-font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
-h1, h2 {
-font-family: 'Great Vibes', cursive;
-}
-
-h1 {
-  font-size: 4rem;
-  color: #d2ba87
+ul {
+  padding-bottom: 1.5rem;
+  letter-spacing: .025rem;
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.4rem;
 }
 
 h2 {
+  font-family: 'Great Vibes', cursive;
   font-size: 3rem;
+  padding: 1rem;
 }
 
 h3, .gifts p, .contact p{
-font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .program p {
   font-style: italic
+}
+
+.info, .program, .gifts, .QandA, .contact {
+  width: 95%;
 }
 
 a {
@@ -79,13 +85,16 @@ a:hover {
 }
 
 .header-text p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   letter-spacing: 0.125rem;
   font-family: 'Libre Baskerville', serif;
 }
 
 .header-text h1 {
-  margin:1.5rem auto 0.5rem auto;
+  font-size: 3.15rem;
+  color: #d2ba87;
+  font-family: 'Great Vibes', cursive;
+  margin:1.5rem auto 1rem auto;
 }
 
 .tagline::after {
@@ -105,4 +114,42 @@ a:hover {
   width: 1.5rem;
   vertical-align: middle;
   margin: 0.5rem;
+}
+
+/* =============================
+      LOCATIONS STYLES
+=============================*/
+
+.info h3 {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.ceremony::after, .photos::after, .party::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 25vw;
+  align-content: center;
+  margin: 1.25rem auto;
+}
+
+.info p {
+  font-size: 1.1rem;
+  /*letter-spacing: 0.02rem;*/
+  line-height: 1.8rem;
+}
+
+.info img {
+  height: 7.5rem;
+}
+
+/* =============================
+        PROGRAM STYLES
+=============================*/
+
+.program {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87
 }
