@@ -238,6 +238,7 @@ footer {
 .footer-wrapper {
   display: table-cell;
   vertical-align: middle;
+  padding: .5rem 1rem;
 }
 
 footer p:last-child {   
