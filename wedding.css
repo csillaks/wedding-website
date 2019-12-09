@@ -38,11 +38,12 @@ h3, .gifts p, .contact p{
   font-style: italic
 }
 
-/*
-.info, .program, .gifts, .QandA, .contact {
+
+.info, .program, .gifts, .faq, .contact {
   width: 95%;
   margin: 0 auto;
-}*/
+  padding: 1rem 0;
+}
 
 a {
   color: #bd806e;
@@ -145,13 +146,67 @@ a:hover {
 .program {
   background-color: hsla(100,0%,0%,.6);
   color: #d2ba87;
+  width: 100vw;
 }
 
 ul {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
   letter-spacing: .025rem;
   display: table;
   text-align: left;
   margin: 0 auto;
   line-height: 1.4rem;
+}
+
+/* =============================
+        GIFTS STYLES
+=============================*/
+
+.gifts img {
+  height: 7.5rem;
+}
+
+.gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+  margin-bottom: 0;
+}
+
+/* =============================
+        FAQ STYLES
+=============================*/
+
+.faq {
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+}
+
+.question {
+  font-weight: 900;
+}
+
+.answer {
+  margin-bottom: 1.5rem;
+}
+
+.faq p {
+  text-align: left;
+}
+
+.faq h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.question-group {
+  padding: 0 1rem;
+}
+
+.question-group::after {
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: 2px;
+  width: 25vw;
+  align-content: center;
+  margin: 1.25rem auto;
 }
