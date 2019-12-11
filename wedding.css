@@ -14,8 +14,7 @@ img, header {
 }
 
 body {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') no-repeat center center fixed;
-  background-size: cover;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
   color: #444349;
   text-align: center;
   font-size: 1.125rem;
@@ -62,8 +61,7 @@ a:hover {
 =============================*/
 
 .cover {
-  background: url(Assets/wedding-landing-cover.jpg) no-repeat 70% center/cover;
-  background-size: cover;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
   height: 100vh;
   display: table;
   width: 100vw;
@@ -90,7 +88,7 @@ a:hover {
   font-size: 3.15rem;
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
-  margin: 1.5rem auto;
+  margin: 2.5rem auto 0.5rem auto;
   padding: 1.5rem 1rem;
 }
 
@@ -100,7 +98,7 @@ a:hover {
   background-color: #fff;
   height: 1px;
   width: 12rem;
-  margin: .8rem auto;
+  margin: 0 auto 0 auto;
 }
 
 .date::before, .date::after{
@@ -171,7 +169,7 @@ ul, .program p {
 }
 
 /*
-.gifts p:last-child {   /* To even out the bottom and top margins of this section. 
+.gifts p:last-child {   /* To even out the bottom and top margins of this section.
   margin-bottom: 0;
 }*/
 
@@ -234,7 +232,7 @@ footer {
   height: 50px;
   background-color: #606060;
   color: #fff;
-  font-size: 1rem; 
+  font-size: 1rem;
   display: table;
 }
 
@@ -244,7 +242,7 @@ footer {
   padding: .5rem 1rem;
 }
 
-footer p:last-child {   
+footer p:last-child {
   margin-bottom: 0;
 }
 
@@ -252,36 +250,36 @@ footer p:last-child {
   .tagline {
     text-transform: uppercase;
   }
-  
-  .header-text h1 { 
+
+  .header-text h1 {
     font-size: 7rem;
   }
-  
+
   .header-text {
     width: 55%;
     margin: 0 auto;
   }
-  
+
   .cover {
-  background: url(Assets/wedding-landing-cover.jpg) no-repeat center;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
   background-size: cover;
   }
-  
+
   .ceremony, .photos, .party {
     display: inline-block;
     width: 30%;
     margin-top: 1rem;
   }
-  
+
   .ceremony::after, .photos::after, .party::after {
     display: none;
   }
-  
+
   .program-wrapper {
     display: table;
     margin: 0 auto;
   }
-  
+
    .question-group {
     display: inline-block;
     vertical-align: top;
@@ -290,19 +288,18 @@ footer p:last-child {
     line-height: 1.5rem;
     padding: 1rem;
   }
-  
+
   .question-group::after {
     display: none;
     top: 0;
   }
-  
+
   .question-group h3{
     margin-bottom: 2rem;
   }
-  
+
   footer {
     min-height: 7vh;
   }
 }
-  
-  
+ 
