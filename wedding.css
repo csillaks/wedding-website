@@ -19,6 +19,7 @@ body {
   color: #444349;
   text-align: center;
   font-size: 1.125rem;
+  line-height: 3rem;
 }
 
 p, li{
@@ -76,7 +77,7 @@ a:hover {
 .header-text {
   background: hsla(100,0%,0%,.6);
   color: #fff;
-  padding: 1rem;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
 }
 
 .header-text p {
@@ -89,7 +90,8 @@ a:hover {
   font-size: 3.15rem;
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
-  margin:1.5rem auto 1rem auto;
+  margin: 1.5rem auto;
+  padding: 1.5rem 1rem;
 }
 
 .tagline::after {
@@ -116,7 +118,7 @@ a:hover {
 =============================*/
 
 .info h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 900;
 }
 
@@ -138,6 +140,7 @@ a:hover {
 
 .info img {
   height: 7.5rem;
+  margin-top: 1rem;
 }
 
 /* =============================
@@ -148,12 +151,12 @@ a:hover {
   background-color: hsla(100,0%,0%,.6);
   color: #d2ba87;
   width: 100vw;
+  padding: 1.5rem;
 }
 
-ul {
+ul, .program p {
   padding-bottom: 0.5rem;
   letter-spacing: .025rem;
-  display: table;
   text-align: left;
   margin: 0 auto;
   line-height: 1.8rem;
@@ -244,3 +247,62 @@ footer {
 footer p:last-child {   
   margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+  .tagline {
+    text-transform: uppercase;
+  }
+  
+  .header-text h1 { 
+    font-size: 7rem;
+  }
+  
+  .header-text {
+    width: 55%;
+    margin: 0 auto;
+  }
+  
+  .cover {
+  background: url(Assets/wedding-landing-cover.jpg) no-repeat center;
+  background-size: cover;
+  }
+  
+  .ceremony, .photos, .party {
+    display: inline-block;
+    width: 30%;
+    margin-top: 1rem;
+  }
+  
+  .ceremony::after, .photos::after, .party::after {
+    display: none;
+  }
+  
+  .program-wrapper {
+    display: table;
+    margin: 0 auto;
+  }
+  
+   .question-group {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .question-group::after {
+    display: none;
+    top: 0;
+  }
+  
+  .question-group h3{
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    min-height: 7vh;
+  }
+}
+  
+  
