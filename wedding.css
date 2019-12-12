@@ -28,6 +28,7 @@ p, li{
 h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
+  margin-bottom: 2rem;
 
 }
 
@@ -35,8 +36,8 @@ h3, .gifts p, .contact p{
   font-family: 'Libre Baskerville', serif;
 }
 
-.program p {
-  font-style: italic
+.program-wrapper p {
+  font-style: italic;
 }
 
 
@@ -156,7 +157,7 @@ ul, .program p {
   padding-bottom: 0.5rem;
   letter-spacing: .025rem;
   text-align: left;
-  margin: 0 auto;
+  margin: 1rem auto;
   line-height: 1.8rem;
 }
 
