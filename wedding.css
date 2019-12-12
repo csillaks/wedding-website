@@ -188,7 +188,7 @@ ul, .program p {
 }
 
 .answer {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .faq p {
@@ -197,11 +197,12 @@ ul, .program p {
 
 .faq h3 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
 }
 
 .question-group {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
+  line-height: 2rem;
 }
 
 .question-group::after {
