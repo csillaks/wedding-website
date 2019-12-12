@@ -28,7 +28,7 @@ p, li{
 h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
-  padding: 1.5rem;
+
 }
 
 h3, .gifts p, .contact p{
@@ -85,11 +85,11 @@ a:hover {
 }
 
 .header-text h1 {
-  font-size: 3.15rem;
+  font-size: 3.5rem;
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
-  margin: 2.5rem auto 0.5rem auto;
-  padding: 1.5rem 1rem;
+  margin: 2rem auto 0.5rem auto;
+
 }
 
 .tagline::after {
@@ -97,8 +97,8 @@ a:hover {
   content: "";
   background-color: #fff;
   height: 1px;
-  width: 12rem;
-  margin: 0 auto 0 auto;
+  width: 10rem;
+  margin: 0.5rem auto 0 auto;
 }
 
 .date::before, .date::after{
