@@ -28,7 +28,7 @@ p, li{
 h2 {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin: 1.5rem auto;
 
 }
 
@@ -139,7 +139,6 @@ a:hover {
 
 .info img {
   height: 7.5rem;
-  margin-top: 1rem;
 }
 
 /* =============================
