@@ -79,7 +79,7 @@ a:hover {
 }
 
 .header-text p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   letter-spacing: 0.125rem;
   font-family: 'Libre Baskerville', serif;
 }
@@ -253,6 +253,7 @@ footer p:last-child {
 
   .header-text h1 {
     font-size: 7rem;
+    padding: 2rem;
   }
 
   .header-text {
